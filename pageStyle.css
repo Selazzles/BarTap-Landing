@@ -1,0 +1,41 @@
+body, html {
+    height: 100%
+
+}
+
+#bgImage{
+  background-image: url("C:/Users/ryan__000/Desktop/Coding Challenges/website exercises/images.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  opacity: 0.7;
+  z-index: -1;
+
+}
+
+
+
+hr{
+  margin: auto;
+  width: 40%;
+}
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+    z-index: 0;
+}
+#email{
+  position: relative;
+
+}
+#emailNotice{
+  position: relative;
+  
+}
